@@ -59,8 +59,8 @@ class HomeAdapter(
 
             company.text = "Company : ${order.Company}"
             announcementDate.text = "Announcement Date : ${order.Announcement_Date}"
-            recordDate.text = "Announcement Date : ${order.Record_Date}"
-            ex_BonusDate.text = "Announcement Date : ${order.ExBonus_Date}"
+            recordDate.text = "Record Date : ${order.Record_Date}"
+            ex_BonusDate.text = "Ex-Bonus Date : ${order.ExBonus_Date}"
             bonusRation.setText(order.Bonus_Ratio)
 
         }
