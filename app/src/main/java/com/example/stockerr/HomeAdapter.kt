@@ -39,7 +39,6 @@ class HomeAdapter(
             mainactivity.startActivity(intent)
         }
 
-
     }
 
     override fun getItemCount(): Int {
@@ -50,9 +49,9 @@ class HomeAdapter(
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
          val company = view.findViewById<TextView>(R.id.dOid)
         val linkButton = view.findViewById<MaterialButton>(R.id.cdelivery)
-        val announcementDate = view.findViewById<MaterialButton>(R.id.announcement)
-        val recordDate = view.findViewById<MaterialButton>(R.id.record)
-        val ex_BonusDate = view.findViewById<MaterialButton>(R.id.ex_Bonus)
+        val announcementDate = view.findViewById<TextView>(R.id.announcement)
+        val recordDate = view.findViewById<TextView>(R.id.record)
+        val ex_BonusDate = view.findViewById<TextView>(R.id.ex_Bonus)
         val bonusRation = view.findViewById<EditText>(R.id.outlinedTextEdit)
 
         @SuppressLint("SetTextI18n")

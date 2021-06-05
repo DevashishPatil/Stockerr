@@ -84,7 +84,6 @@ class HomeFrag(
 
                                 if (orders != null)
                                     show(orders, context)
-                                tools.hideDialog()
                                 Log.d(TAG,"Passing Data to adapter")
                             }
                             if (responseStr != null) {
@@ -101,6 +100,7 @@ class HomeFrag(
         recyclerView.layoutManager = GridLayoutManager(context, 1)
         recyclerView.adapter = HomeAdapter(context, orders, activity, tools)
         recyclerView.setHasFixedSize(true)
+        tools.hideDialog()
     }
 
     override fun getView(): View? {
