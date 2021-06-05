@@ -8,7 +8,7 @@ import retrofit2.http.*
 
 interface Api {
 
-    @POST("bonus")
+    @GET("bonus")
     fun getBonus(
     ): Call<ResponseBody?>?
 
