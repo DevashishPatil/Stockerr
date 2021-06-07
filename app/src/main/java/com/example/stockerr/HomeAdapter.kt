@@ -62,6 +62,7 @@ class HomeAdapter(
             recordDate.text = "Record Date : ${order.Record_Date}"
             ex_BonusDate.text = "Ex-Bonus Date : ${order.ExBonus_Date}"
             bonusRation.setText(order.Bonus_Ratio)
+            bonusRation.isEnabled = false
 
         }
     }

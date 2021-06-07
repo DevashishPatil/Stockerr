@@ -42,6 +42,12 @@ class MainActivity : AppCompatActivity() {
                 fragmentTransaction.replace(R.id.fragments_frame, HomeFrag(this, tools)).addToBackStack("home")
                 fragmentTransaction.commit()
             }
+            else if (menuItem.itemId == R.id.bmp) {
+                toolbar.title = "After Bonus Market Price"
+                val fragmentTransaction1 = fragmentManager.beginTransaction()
+                fragmentTransaction1.replace(R.id.fragments_frame, AfterBonusPriceFragment(this, tools)).addToBackStack("home")
+                fragmentTransaction1.commit()
+            }
 
             drawer.closeDrawer(GravityCompat.START)
             true

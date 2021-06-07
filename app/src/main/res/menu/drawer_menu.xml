@@ -4,4 +4,7 @@
     <item android:id="@+id/home"
         android:icon="@drawable/ic_baseline_home_24"
         android:title="Home"/>
+    <item android:id="@+id/bmp"
+        android:icon="@drawable/ic_baseline_attach_money_24"
+        android:title="After Bonus Market Price"/>
 </menu>

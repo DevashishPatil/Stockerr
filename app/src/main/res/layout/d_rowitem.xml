@@ -58,7 +58,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="1:1"/>
+                    android:enabled="false"
+                    android:textColor="@color/black"
+                    android:text=""/>
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -137,10 +139,6 @@
                     android:textColor="@color/black" />
 
             </LinearLayout>
-
-
-
-
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/cdelivery"
