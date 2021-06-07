@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
+
         tools = Tools(this)
         drawer = findViewById(R.id.drawer_layout)
         navView = findViewById(R.id.nav_view)
